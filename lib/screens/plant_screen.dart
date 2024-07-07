@@ -110,7 +110,7 @@ class _PlantScreenState extends State<PlantScreen> {
             AnimatedPositioned(
               left: _cloudsVisible ? -10 : -220,
               top: -50,
-              duration: Duration(seconds: 2),
+              duration: const Duration(seconds: 2),
               curve: Curves.easeInOut,
               child: Container(
                 height: 200,
@@ -121,7 +121,7 @@ class _PlantScreenState extends State<PlantScreen> {
             AnimatedPositioned(
               left: _cloudsVisible ? 150 : 370,
               top: -50,
-              duration: Duration(seconds: 2),
+              duration: const Duration(seconds: 2),
               curve: Curves.easeInOut,
               child: Container(
                 height: 200,
@@ -132,9 +132,9 @@ class _PlantScreenState extends State<PlantScreen> {
             AnimatedPositioned(
               left: _cloudsVisible ? 250 : 470,
               top: -50,
-              duration: Duration(seconds: 2),
+              duration: const Duration(seconds: 2),
               curve: Curves.easeInOut,
-              child: Container(
+              child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset('assets/cloud.png'),
@@ -155,7 +155,7 @@ class _PlantScreenState extends State<PlantScreen> {
               left: 0,
               child: AnimatedContainer(
                 key: startKey,
-                duration: Duration(seconds: 1),
+                duration: const Duration(seconds: 1),
                 curve: Curves.bounceInOut,
                 width: width,
                 height: height,
