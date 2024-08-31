@@ -38,10 +38,10 @@ class _PlantScreenState extends State<PlantScreen> {
   @override
   void initState() {
     super.initState();
-    // Başlangıçta bulutları gizle
+    
     _cloudsVisible = false;
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      // Bulutları 1 saniye sonra göstermek için
+      
       setState(() {
         _cloudsVisible = true;
       });
