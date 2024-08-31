@@ -1,16 +1,24 @@
-# test_animation
+# Tap to Earn - Flutter Game
 
-A new Flutter project.
+Tap to Earn is a simple clicker game where players grow a plant by tapping on the screen and earn tokens. The goal of the game is to grow the plant as much as possible by tapping and accumulating the highest score.
 
-## Getting Started
+## How It Works
 
-This project is a starting point for a Flutter application.
+- **Tapping**: Each tap on the screen causes the plant to grow.
+- **Plant Growth**: The number of taps required for the plant to grow, as well as the difficulty level, can be adjusted via variables in the code.
+- **Earning Tokens**: Players earn tokens as the plant grows.
 
-A few resources to get you started if this is your first Flutter project:
+## Customization
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Game difficulty and plant growth parameters can be customized by modifying the variables in the code. This allows for the creation of different game levels.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Requirements
+
+- Flutter SDK
+- Dart
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/euphranos/plant_app.git
